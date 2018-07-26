@@ -1,58 +1,93 @@
+
 body{
-  font: 15px/1.5 Arial,Helvetica,sans-serif;
-  padding: 25;
-  margin: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
+text-align: center;
+
+
 }
-container{
-  width:100%
-  margin:auto;
-  overflow: hidden;
+body{
+  font-family: cursive;
 }
+
 header{
   background: #35424a;
-  color: #ffffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+
 }
 
-header a{
-  color: #ffffffff;
-text-decoration: none;
+.name {
+  font-size: 3em;
+  color:#18ba60;
+  padding: 1em;
+}
+.navigation  {
+  list-style: none;
+  margin: 0,auto;
+}
+ .navigation ul
+
+ {
+
+  list-style: none;
+
+}
+ul :hover{
+     background: #ffffff;
+border: 2px solid #18ba60;
+}
+
+
+.navigation li{
+display: inline-block;
+margin: 1em;
+}
+.navigation a{
+font-weight: bold;
 text-transform: uppercase;
-font-size: 16px;
-}
-
-header ul{
-  margin: 0;
-  padding: 0;
+text-decoration: none;
+padding: 0.5em;
+color: #18ba60;
 
 }
-header li{
-  background-color: #35424a
-  float: left;
-  display: inline;
-  padding: 10px 20px 30px 20px;
+.int{
+background: #35424a;
+}
+.about{
+padding: 5em 0;
+overflow: auto;
 
 }
-header #branding{
 
+.about h4{
+color: #18ba60;
+}
+.content{
+
+
+  width: 90%;
+  margin: 0 auto;
+}
+.col{
 float: left;
-}
-header #branding h1{
-  margin: 0;
-}
-header nav{
-  float: right;
-  margin-top: 20px
-}
-header .highlihght, header .current a{
-color: #e8491d;
-font-weight:bold;
-}
-header a:hover{
+overflow: hidden;
 
-  color: #cccccc;
-  font-weight: bold;
+}
+.cols
+{
+width: 70%;
+float: right;
+text-align: left;
+overflow: hidden;
+margin: 2em;
+}
+.soc{
+list-style: none;
+}
+.my{
+
+
+}
+footer{
+  background: #000000;
+  color: #FFFFFF;
+  padding: 4em;
 }

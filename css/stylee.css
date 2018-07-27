@@ -19,6 +19,7 @@ header{
   color:#18ba60;
   padding: 1em;
 }
+
 .navigation  {
   list-style: none;
   margin: 0,auto;
@@ -89,5 +90,5 @@ list-style: none;
 footer{
   background: #000000;
   color: #FFFFFF;
-  padding: 4em;
+  padding: 1em;
 }

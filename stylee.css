@@ -77,8 +77,8 @@ background: #35424a;
 }
 .about section{
 padding: 5em 30 ;
-overflow: auto;
 align-content: center;
+justify-content: center;
 }
 
 .about h4{
@@ -114,4 +114,33 @@ footer{
   background: #000000;
   color: #FFFFFF;
   padding: 1em;
+}
+
+
+.bg {
+	background-image:url("./img/b.jpg");
+	height:80vh;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:0.9;
+	width:auto;
+}
+
+.myimg {
+  padding-top: 40px;
+	height:250px;
+	width:auto;
+}
+
+.social {
+	text-align:center;
+}
+
+
+
+.social-icon {
+	font-size:30px;
+	color:black;
+	padding:10px;
 }
